@@ -10,14 +10,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.jediknife.copingbox.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:background="@android:color/holo_blue_bright">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Coping Skill is..."
         android:id="@+id/yourCopingSkillTextView"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textColor="#96ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,5 +28,6 @@
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textColor="#96ffffff" />
 </RelativeLayout>
