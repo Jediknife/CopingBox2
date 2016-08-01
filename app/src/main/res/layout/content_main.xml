@@ -16,5 +16,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Coping Skill is..."
-        android:id="@+id/yourCopingSkillTextView" />
+        android:id="@+id/yourCopingSkillTextView"
+        android:textSize="24sp" />
 </RelativeLayout>
